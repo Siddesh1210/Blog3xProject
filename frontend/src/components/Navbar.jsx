@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../Images/logo.png";
-import "./Navbar.css";
+import "../components/CSS/Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,22 +26,19 @@ const Navbar = () => {
             <a><Link to="/">Home</Link></a>
         </li>
         <li>
+            <a><Link to="/blogs/createblog">Add Blog</Link></a>
+        </li>
+        <li>
             <a><Link to="/about">About</Link></a>
-        </li>
-        <li>
-            <a><Link>Products</Link></a>
-        </li>
-        <li>
-            <a><Link>Services</Link></a>
         </li>
         <li>
             <a><Link to="/contact">Contact Us</Link></a>
         </li>
         <li>
-            <button className="login-button"><Link>Login</Link></button>
+            <button className="login-button"><Link to="/auth/signup">Signup</Link></button>
         </li>
         <li>
-            <button className="join-button"><Link>Join</Link></button>
+            <button className="join-button"><Link>Profile</Link></button>
         </li>
       </ul>
     </nav>

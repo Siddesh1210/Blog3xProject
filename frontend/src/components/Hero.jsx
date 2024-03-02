@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import './Hero.css'
+import '../components/CSS/Hero.css'
 
 // Import Swiper styles
 import 'swiper/css';

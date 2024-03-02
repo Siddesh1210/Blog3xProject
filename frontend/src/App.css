@@ -1,17 +1,18 @@
-.emptySpace
+body
 {
-    padding-top:6%;
+    font-family: "Poppins", sans-serif;
+}  
+
+@media (max-width: 800px) {
+  .emptySpace {
+    padding-top: 11%;
+  }
 }
 
-@media (max-width:800px)
-{
-    .emptySpace
-    {
-        padding-top: 11%;
-    }
+div {
+  color: black !important;
 }
 
-div
-{
-    color:black !important;
+.emptySpace {
+  padding-top: 6%;
 }

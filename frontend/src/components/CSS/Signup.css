@@ -1,0 +1,73 @@
+.main
+{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup
+{
+    width:350px;
+    padding:20px 10px;
+    border-radius: 8px;
+    border:1px solid rgb(195, 190, 190);
+    box-sizing: border-box;
+}
+
+.signup h2
+{
+    text-align: center;
+    color:black !important;
+    font-size: 25px;
+}
+
+.signup form input
+{
+    width:100%;
+    box-sizing: border-box;
+    padding:8px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin:10px 0px;
+    border:1px solid rgb(187, 183, 183)
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #696868;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .custom-file-upload i {
+    margin-right: 5px;
+  }  
+
+.signup form input:focus
+{
+    outline: none;
+    border:1px solid rgb(28, 28, 53);
+    transition: 0.5s ease-in-out;
+}
+
+.signup form button
+{
+    padding:9px 32px;
+    width:100%;
+    background-color: black !important;
+    color:white;
+    cursor: pointer !important;
+    border-radius: 8px;
+    font-size: 16px;
+    border:none
+}
+
+a:hover
+{
+    color:rgb(0, 51, 255) !important;
+    text-decoration: none !important;
+}

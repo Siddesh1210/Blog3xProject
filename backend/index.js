@@ -3,6 +3,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 import dbConfig from "./DB/dbConfig.js";
+import userRoutes from "./Routes/user.routes.js";
 
 dotenv.config();
 
@@ -15,6 +16,8 @@ app.use(cors());
 (()=>{
     dbConfig()
 })()
+
+app.use("/users", userRoutes);
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
